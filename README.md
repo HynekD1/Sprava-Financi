@@ -35,7 +35,7 @@ Aplikace důsledně využívá principy objektově orientovaného programování
 
 ### Popis jednotlivých vazeb v kódu:
 * **Třída `Program` (Controller):** Asociace směrem k třídám `Penezenka`, `SouborovyManager` a `GrafRender`. Inicializuje je a řídí tok dat na základě voleb v menu.
-* **Vazba `Penezenka` -> `Transakce` (Agregace - 1:N):** Třída `Penezenka` v sobě zapouzdřuje dynamickou kolekci `List<Transakce> Historie`, nad kterou provádí matematické operace.
+* **Vazba `Penezenka` -> `Transakce` :** Třída `Penezenka` v sobě zapouzdřuje dynamickou kolekci `List<Transakce> Historie`, nad kterou provádí matematické operace.
 * **Vazba `GrafRender` -> `Penezenka` (Závislost):** Metoda `VykreslyGraf` přijímá objekt peněženky jako parametr a volá její metody pro zjištění měsíčních sum.
 * **Vazba `SouborovyManager` -> `Transakce` (Závislost):** Třída přistupuje k vlastnostem transakcí při zápisu do textu a provádí instanciaci nových objektů při načítání ze souboru.
 
