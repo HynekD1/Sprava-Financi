@@ -51,7 +51,7 @@ Aplikace důsledně využívá principy objektově orientovaného programování
 ### Třída: Transakce
 * **Vlastnosti (Properties):** `Castka`, `Popis`, `Kategorie`, `JePrijem`, `Den`, `Mesic`, `Rok` (obsahují interní validaci rozsahu kalendářních dat v bloku `set`).
 * `public Transakce(double castka, int den, int mesic, int rok, string popis, string kategorie, bool jeprijem)` - Konstruktor pro vytvoření a inicializaci objektu.
-* `public void VypisDetail()` - Vytiskne kompletní detail transakce do konzole (příjmy zelenou barvou, výdaje červenou barvou).
+* `public void VypisDetail()` - Vypíše kompletní detail transakce do konzole (příjmy zelenou barvou, výdaje červenou barvou).
 
 ### Třída: Penezenka
 * **Kolekce:** `public List<Transakce> Historie` - Dynamická kolekce uchovávající transakce v paměti RAM.
