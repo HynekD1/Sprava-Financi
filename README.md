@@ -5,7 +5,7 @@ Cílem projektu je vytvořit konzolovou aplikaci v jazyce C#, která uživateli 
 
 ### Funkce programu:
 * **Správa transakcí:** Možnost přidat novou transakci (částka, datum, popis, kategorie, typ) a zobrazit kompletní barevně rozlišenou historii (příjmy zeleně, výdaje červeně).
-* **Bezpečné mazání transakcí:** Funkce pro vyhledání transakcí podle konkrétního zadaného data, která uživateli nabídne očíslovaný přehled a umožní smazat jednu konkrétní zvolenou položku.
+* **Bezpečné mazání transakcí:** Funkce pro vymazání transakcí podle konkrétního zadaného data, která uživateli nabídne očíslovaný přehled a umožní smazat jednu konkrétní zvolenou položku.
 * **Analýza dat:** Automatický výpočet a zobrazení aktuálního celkového zůstatku na základě všech evidovaných příjmů a výdajů.
 * **Vizuální roční graf:** Možnost vykreslit přehledný sloupcový graf hospodaření pro vybraný rok v textové podobě ("kostičkách") přímo do konzole, který přehledně odděluje ziskové a ztrátové měsíce.
 * **Ukládání a načítání dat:** Trvalé ukládání dat do textového souboru na disk, které zajišťuje, že uživatel nepřijde o svá data po zavření aplikace.
