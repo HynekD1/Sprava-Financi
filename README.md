@@ -66,7 +66,7 @@ Aplikace důsledně využívá principy objektově orientovaného programování
 * `public void VykreslyGraf(Penezenka penezenka, int rok)` - Vyžádá si data z peněženky pro 12 měsíců, přepočítá bilance na kostičky (1 kostička = 1000 Kč) a vykresluje roční sloupcový graf.
 
 ### Třída: SouborovyManager
-* `public void UlozData(string cestaKSouboru, List<Transakce> historie)` - Otevře soubor přes `StreamWriter` and zapíše data transakcí oddělená středníkem.
+* `public void UlozData(string cestaKSouboru, List<Transakce> historie)` - Otevře soubor přes `StreamWriter` a zapíše data transakcí oddělená středníkem.
 * `public List<Transakce> NactiData(string cestaKSouboru)` - Zkontroluje existenci souboru, čte jej přes `StreamReader`, rozděluje řádky metodou `.Split(';')` a parsuje data zpět do objektů.
 
 ---
